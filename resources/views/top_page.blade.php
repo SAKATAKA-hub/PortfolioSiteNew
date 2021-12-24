@@ -125,7 +125,8 @@
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
                                 <div style="width:100%;height:225px;overflow:hidden;">
-                                    <img src="{{asset('storage/'.$work['image'])}}" alt="作品サムネイル" class="img-rounded card-img-top" width="100%" height="225">
+                                    {{-- <img src="{{asset('storage/'.$work['image'])}}" alt="作品サムネイル" class="img-rounded card-img-top" width="100%" height="225"> --}}
+                                    <img src="{{$work['image']}}" alt="作品サムネイル" class="img-rounded card-img-top" width="100%" height="225">
                                 </div>
                                 <div class="card-body">
                                 <p class="card-text">

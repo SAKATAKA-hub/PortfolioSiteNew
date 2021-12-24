@@ -27,7 +27,6 @@ img{
 }
 #about{
     height: 500px;
-    background: url(../img/topimg/topimg4.jpg) no-repeat center center/cover;
     position: relative;
 }
 .mask_container {
