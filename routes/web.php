@@ -9,7 +9,10 @@ Route::get('/', [TopPageContrlller::class, 'top_page'])
 
 
 
-
+Route::get('test', function(){
+    return 'test';
+})
+->name('test');
 
 Auth::routes();
 

@@ -48,10 +48,10 @@ return [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
 
-            'host' => $db['host'],
-            'database' => ltrim($db['path'],'/'),
-            'username' => $db['user'],
-            'password' => $db['pass'],
+            // 'host' => $db['host'],
+            // 'database' => ltrim($db['path'],'/'),
+            // 'username' => $db['user'],
+            // 'password' => $db['pass'],
 
             // 'host' => env('DB_HOST', '127.0.0.1'),
             // 'database' => env('DB_DATABASE', 'forge'),

@@ -91,7 +91,7 @@
                     <p class="lead text-muted">
 
                         <div class="mb-5">
-                            <img src="{{asset('storage/favicon.png')}}" alt="プロフィール画像" width="100px" height="100px" class="rounded-circle"><br><br>
+                            <img src="{{asset('storage/img/topimg/7777.png')}}" alt="プロフィール画像" width="100px" height="100px" class="rounded-circle"><br><br>
                             <strong>酒井　貴弘</strong><br><br>
                             大学卒業後、飲食業界に就職。<br>
                             30代業界未経験からWebエンジニアを目指し活動中。
@@ -125,8 +125,7 @@
                         <div class="col-md-4">
                             <div class="card mb-4 shadow-sm">
                                 <div style="width:100%;height:225px;overflow:hidden;">
-                                    {{-- <img src="{{asset('storage/'.$work['image'])}}" alt="作品サムネイル" class="img-rounded card-img-top" width="100%" height="225"> --}}
-                                    <img src="{{$work['image']}}" alt="作品サムネイル" class="img-rounded card-img-top" width="100%" height="225">
+                                    <img src="{{asset($work['image'])}}" alt="作品サムネイル" class="img-rounded card-img-top" width="100%" height="225">
                                 </div>
                                 <div class="card-body">
                                 <p class="card-text">
