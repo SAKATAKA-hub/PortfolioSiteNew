@@ -8,6 +8,10 @@ Route::get('/', [TopPageContrlller::class, 'top_page'])
 ->name('top_page');
 
 
+# Worksの編集ページ(works)
+Route::get('works', [TopPageContrlller::class, 'works'])
+->name('works');
+
 
 Route::get('test', function(){
     return 'test';

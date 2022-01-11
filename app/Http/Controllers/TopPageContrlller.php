@@ -23,36 +23,28 @@ class TopPageContrlller extends Controller
             'body' => <<<__
             web上に自分の残したいノートを保存できるブログ型のノートアプリです。
             __ ,
-            'image' => 'storage/img/note/login1.png',
-            'app_path' => 'https://sakataka-laravel-note.herokuapp.com',
-            'introduction_path' => 'https://sakataka-laravel-note.herokuapp.com/note/145',
+            'image' => 'storage/img/note/mynote_top.png',
+            'app_path' => 'https://sakataka.jellybean.jp/laravel-note/public/',
+            'introduction_path' => 'https://sakataka.jellybean.jp/laravel-note/public/note/9',
             'github_path' => 'https://github.com/SAKATAKA-hub/laravel-note',
         ];
 
-        $works[] = [
-            'title' => 'My note',
-            'body' => <<<__
-            web上に自分の残したいノートを保存できるブログ型のノートアプリです。
-            __,
-            'image' => '',
-            'app_path' => 'https://sakataka-laravel-note.herokuapp.com',
-            'introduction_path' => 'https://sakataka-laravel-note.herokuapp.com/note/95',
-            'github_path' => 'https://github.com/SAKATAKA-hub/laravel-note',
-        ];
-        $works[] = [
-            'title' => 'My note',
-            'body' => <<<__
-            web上に自分の残したいノートを保存できるブログ型のノートアプリです。
-            __,
-            'image' => '',
-            'app_path' => 'https://sakataka-laravel-note.herokuapp.com',
-            'introduction_path' => 'https://sakataka-laravel-note.herokuapp.com/note/95',
-            'github_path' => 'https://github.com/SAKATAKA-hub/laravel-note',
-        ];
 
         return view('top_page',
             compact('works')
         );
+    }
+
+
+
+    /**
+     * Worksの編集ページ(works)
+     *
+     * @return \Illuminate\View\View
+     */
+    public function works()
+    {
+        return view('works');
     }
 
 

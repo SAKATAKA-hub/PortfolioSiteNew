@@ -17,6 +17,10 @@
 
         <link href="{{asset('css/index.css')}}" rel="stylesheet">
 
+        <!-- favicon -->
+        <link rel="icon" href="{{asset('storage/img/topimg/7777.png')}}">
+
+
     </head>
     <body>
         <header>
@@ -36,7 +40,7 @@
                         <ul class="navbar-nav mr-auto">
                             <li></li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about">About this page</a>
+                                <a class="nav-link" href="#about">About this site</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#profile">Profile</a>
@@ -67,7 +71,7 @@
 
             <section class="jumbotron text-center" id="about">
                 <div class="mask_container">
-                    <h2 class="text-center mb-5">About this page</h2>
+                    <h2 class="text-center mb-5">About this site</h2>
                     <p class="lead text-muted ">
                         閲覧いただきありがとうございます。<br>
                         <br>
